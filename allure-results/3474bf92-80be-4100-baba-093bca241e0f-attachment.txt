@@ -1,0 +1,21 @@
+'POST example'
+'https://petstore.swagger.io/v2/user/'
+200
+'OK'
+'{"code":200,"type":"unknown","message":"101"}'
+{'code': 200, 'message': '101', 'type': 'unknown'}
+'**********'
+'GET example'
+'https://petstore.swagger.io/v2/user/esket1'
+200
+'OK'
+'{"id":101,"username":"esket1","firstName":"Dan","lastName":"Baykov","email":"baykovdr23@st.ithub.ru","password":"12345","phone":"1234567890","userStatus":1}'
+{'email': 'baykovdr23@st.ithub.ru',
+ 'firstName': 'Dan',
+ 'id': 101,
+ 'lastName': 'Baykov',
+ 'password': '12345',
+ 'phone': '1234567890',
+ 'userStatus': 1,
+ 'username': 'esket1'}
+'**********'

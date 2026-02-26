@@ -1,0 +1,12 @@
+'POST example'
+'https://petstore.swagger.io/v2/store/order/'
+200
+'OK'
+'{"id":9999,"petId":1,"quantity":1,"shipDate":"2026-02-25T10:00:00.000+0000","status":"placed","complete":true}'
+{'complete': True,
+ 'id': 9999,
+ 'petId': 1,
+ 'quantity': 1,
+ 'shipDate': '2026-02-25T10:00:00.000+0000',
+ 'status': 'placed'}
+'**********'

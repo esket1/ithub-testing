@@ -1,0 +1,14 @@
+'DELETE example'
+'https://petstore.swagger.io/v2/store/order/9999'
+200
+'OK'
+'{"code":200,"type":"unknown","message":"9999"}'
+{'code': 200, 'message': '9999', 'type': 'unknown'}
+'**********'
+'GET example'
+'https://petstore.swagger.io/v2/store/order/9999'
+404
+'Not Found'
+'{"code":1,"type":"error","message":"Order not found"}'
+{'code': 1, 'message': 'Order not found', 'type': 'error'}
+'**********'

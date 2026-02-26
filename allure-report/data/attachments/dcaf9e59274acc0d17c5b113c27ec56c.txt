@@ -1,0 +1,7 @@
+'PUT example'
+'https://petstore.swagger.io/v2/user/esket1'
+200
+'OK'
+'{"code":200,"type":"unknown","message":"101"}'
+{'code': 200, 'message': '101', 'type': 'unknown'}
+'**********'
